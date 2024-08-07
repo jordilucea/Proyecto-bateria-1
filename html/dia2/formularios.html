@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios</title>
+    </head>
+    <body>
+        <header>
+            <h1>Formularios</h1>
+            <nav>
+                <menu>
+                    <ul>
+                        <li><a href="/html/dia2/listas.html">Listas</a></li>
+                        <li><a href="/html/dia2/multimedia.html">Multimedia</a></li>
+                        <li><a href="/html/dia2/semantica.html">Semántica</a></li>
+                        <li><a href="/html/dia2/formularios.html">Formularios</a></li>
+                        <li><a href="/html/dia2/contacto.html">Contacto</a></li>
+                    </ul>
+                </menu>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Formularios</h2>
+                <p>A continuación vamos a trabajar los formularios en HTML</p>
+                <form>
+                    <ul>
+                        <li>
+                            <label for="nombre">Nombre:</label>
+                            <input id="nombre" type="text" placeholder="nombre" required/>
+                        </li>
+                        <li>
+                            <label for="apellidos">Apellidos:</label>
+                            <input id="apellidos" type="text" placeholder="apellidos"/>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <label for="mail">Email:</label>
+                            <input id="mail" type="email" placeholder="explore@explore.com" required/>
+                        </li>
+                        <li>
+                            <label for="pass">Contraseña:</label>
+                            <input id="pass" type="password" placeholder="contraseña" required/>
+                        </li>
+                        <li>
+                            <label for="edad">Rango de Edad:</label>
+                            <input id="edad" type="range"/>i <span></span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <label for="date">Fecha:</label>
+                            <input id="date" type="date">
+                        </li>
+                        <li>
+                            <label for="select">Países</label>
+                            <select name="países" id="select">
+                            <optgroup label="Sur">
+                                <option selected>España</option>
+                                <option>Portugal</option>
+                                <option>Francia</option>
+                                <option>Italia</option>
+                            </optgroup>
+                            <optgroup label="centro">
+                                <option>Alemania</option>
+                                <option>Suiza</option>
+                                <option>Austria</option>
+                                <option>Bélgica</option>
+                                <option>Países Bajos</option>
+                            </optgroup>
+                            <optgroup label="norte">
+                                <option>Reino Unido</option>
+                                <option>Noruega</option>
+                                <option>Suecia</option>
+                                <option>Finlandia</option>
+                            </optgroup>
+                        </li>
+                    </ul>
+                    <button>Enviar</button>
+                    <button type="reset">Iniciar</button>
+                </form>
+            </section>
+            <section>
+                <h2></h2>
+                <p></p>
+            </section>
+        </main>
+        <footer>
+            <button>
+                <a href="/html/dia2/contacto.html">Contáctanos</a>
+            </button>
+            <button>
+                <a href="mailto:info@bedeltasailing.com">info@bedeltasailing.com</a>
+            </button>
+            <button>
+                <a href="tel:+34645069805">+34 645 069 805</a>
+            </button>
+        </footer>
+    </body>
+</html>

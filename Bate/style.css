@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.drum-pad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.drum {
+    padding: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #444;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.1s;
+}
+
+.drum:active {
+    background-color: #888;
+    transform: scale(0.95);
+}

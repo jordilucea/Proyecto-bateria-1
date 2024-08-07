@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link src="/diaspracticos/Practica1/style.css">
+    <title>Debrable</title>
+    </head>
+    <body>
+        <header>
+            <h1>Debrable</h1>
+            <nav>
+                <menu>
+                        <li><a href="#">Mi top 10 películas</a></li>
+                        <li><a href="#">Mi viaje a Japón</a></li>
+                        <li><a href="#">Mándame un mensaje</a></li>
+                </menu>
+            </nav>
+        </header>
+        <main>
+            <!--Ahora necesito 2 secciones. En la primera tengo 2 bloques, cada uno con su
+            H2 en negrita. En el primero hay un listado con las TOP 10 películas.
+            En el segundo tengo una imágen con un texto. En la segunda sección tengo un formulario.
+            En el lateral he de crear un apartado con un <aside>-->
+            <section>
+                <h2>
+                    <strong>Mi TOP 10 películas</strong>
+                </h2>
+                <ol>
+                    <li>Titanic</li>
+                    <li>Pearl Harbour</li>
+                    <li>El Patriota</li>
+                    <li>Mensaje en una botella</li>
+                    <li>The last of the Mohicans</li>
+                    <li>Gladiator</li>
+                    <li>Master and Commander</li>
+                    <li>The Lord of the Rings</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ol>
+                <h2>
+                    <strong>Mi viaje a Japón</strong>
+                </h2>
+                <picture>
+                    <img src="https://img.freepik.com/foto-gratis/flores-cerezo-primavera-pagoda-chureito-montana-fuji-al-atardecer-japon_335224-215.jpg" alt="imagen de un templo japonés">
+                </picture>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quod fuga unde eos itaque? Nesciunt rem numquam unde sequi natus magnam fuga hic eius minus impedit alias assumenda quisquam inventore, obcaecati libero, officia nemo culpa illo sapiente eum id, aperiam blanditiis repellat? Veniam perspiciatis praesentium iure exercitationem in accusantium voluptates.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, temporibus unde id minima, delectus assumenda natus fuga hic quod corrupti nemo? Exercitationem quae incidunt, quod excepturi ut distinctio dolore aperiam provident eius beatae. Debitis voluptatibus consequatur nostrum nisi quisquam dolorem.</p>
+            </section>
+            <article>
+                <picture>
+                    <img src="https://a.storyblok.com/f/191576/1200x800/215e59568f/round_profil_picture_after_.webp" width="250" height="250" alt="foto de perfil">
+                </picture>
+                <h2>
+                    <strong>Debra Smith</strong>
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, dolor.</p>
+                <a href="mailto:debra.smith@example.com">debra.smith@example.com</a>
+            </article>
+            <section>
+                <h2>
+                    <strong>Mándame un mensaje</strong>
+                </h2>
+                <form>
+                    <label for="name">Nombre:</label>
+                    <input id="name" type="text" required>
+                    <label for="mail">Email:</label>
+                    <input id="mail" type="email" required>
+                    <label for="date">Fecha de nacimiento:</label>
+                    <input type="date" id="date" required>
+                    <label for="text">Comentarios:</label>
+                    <input type="text" name="Comentarios" id="text" required>
+                    <label for="check"></label>
+                    <input type="checkbox" name="acepto" id="check" required>
+                    <button>
+                        Enviar
+                    </button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Terms and conditions</p>
+        </footer>
+    </body>
+</html>
+<!--  
+
+etiqueta{nombre $}*número 
+
+li{película $}*5
+
+<li>Película 1</li>
+<li>Película 2</li>
+<li>Película 3</li>
+<li>Película 4</li>
+<li>Película 5</li>
+
+<li>Película 6</li>
+<li>Película 7</li>
+<li>Película 8</li>
+<li>Película 9</li>
+<li>Película 10</li>
+
+li{Película $@6}*5
+-->
+
+<label for="Comentarios">Comentarios</label>
+<textarea id="Comentarios" placeholder="Escribe aquí tus comentarios"></textarea>

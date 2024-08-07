@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+body {
+
+}
+
+menu li {
+    list-style-type: none;
+}
+menu li a {
+    text-decoration: none;
+}
+
+menu li a:hover{
+    color: azure;
+}
